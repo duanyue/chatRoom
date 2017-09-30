@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+    <title>聊天室</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 750px;
+            margin: 0 auto;
+        }
+        .container {
+            width: 8rem;
+            height: 1.5rem;
+            line-height: 1.5rem;
+            border: 1px solid #ddd;
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            top:0;
+            margin: auto;
+            text-align: center;
+            background-color: #ddf1d8;
+        }
+        input{
+            height: 0.533333rem;
+            padding: 0.066667r6'em;
+        }
+        #username {
+            width: 4.0rem;
+        }
+        #submit {
+            width: 2rem;
+            height: 0.75rem;
+            padding: 0.066667rem;
+        }
+    </style>
+    <script type="text/javascript" src="/rem.js"></script>
+</head>
+<body>
+
+<div class="container">
+    <form action="/user" method="get">
+        <input id="username" type="text" name="username" placeholder="请输入姓名" maxlength="4">
+        <input id="submit" type="submit" value="进入聊天室">
+    </form>
+</div>
+<script>
+    console.log([
+        "                   _ooOoo_",
+        "                  o8888888o",
+        "                  88\" . \"88",
+        "                  (| -_- |)",
+        "                  O\\  =  /O",
+        "               ____/`---'\\____",
+        "             .'  \\\\|     |//  `.",
+        "            /  \\\\|||  :  |||//  \\",
+        "           /  _||||| -:- |||||-  \\",
+        "           |   | \\\\\\  -  /// |   |",
+        "           | \\_|  ''\\---/''  |   |",
+        "           \\  .-\\__  `-`  ___/-. /",
+        "         ___`. .'  /--.--\\  `. . __",
+        "      .\"\" '<  `.___\\_<|>_/___.'  >'\"\".",
+        "     | | :  `- \\`.;`\\ _ /`;.`/ - ` : | |",
+        "     \\  \\ `-.   \\_ __\\ /__ _/   .-` /  /",
+        "======`-.____`-.___\\_____/___.-`____.-'======",
+        "                   `=---='",
+        "^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^",
+        "         佛祖保佑       永无BUG"
+    ].join('\n'));
+
+
+</script>
+</body>
+</html>
